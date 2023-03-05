@@ -1,0 +1,60 @@
+{
+  "nodes": {
+    "mtl4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1614977901,
+        "narHash": "sha256-dgSOvHAkTQh+JCoQ06s7htFH3MQlDC91JBUnurtaIdU=",
+        "owner": "simunova",
+        "repo": "mtl4",
+        "rev": "09d8523d59baf5fdec29f3509a63babc2763af4a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "simunova",
+        "repo": "mtl4",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1676487294,
+        "narHash": "sha256-fbD0tVsowxAUXwfw2C9EdEAH8UEJNsCm0zJcfkJy3Pg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "63b5955814db30d2e2ff7157aaa5665b502ed2f4",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "mtl4": "mtl4",
+        "nixpkgs": "nixpkgs",
+        "universal": "universal"
+      }
+    },
+    "universal": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1677418120,
+        "narHash": "sha256-R4MJfXoYe/czi78jloa4uRu8oMzhnAuSce+8b7xyHJo=",
+        "owner": "stillwater-sc",
+        "repo": "universal",
+        "rev": "ed6cc4eab9a56e189993ff7decb93b5ed3ef28eb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "stillwater-sc",
+        "ref": "v3.68",
+        "repo": "universal",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
